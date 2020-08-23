@@ -10,9 +10,8 @@ libsodium: https://download.libsodium.org/libsodium/releases/
 opus: https://ftp.osuosl.org/pub/xiph/releases/opus/
 
 
-# Commandline tool for creating audio pipe
+# Commandline tool for creating audio pipes
 ffmpeg: https://ffmpeg.org/download.html
-(link to source here)
 
 # Setup
 Create and obtain your bot token from discord.com
