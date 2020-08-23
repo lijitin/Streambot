@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/justin/sp/StreamBot/StreamBot.csproj": {}
+  },
+  "projects": {
+    "/media/justin/sp/StreamBot/StreamBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/justin/sp/StreamBot/StreamBot.csproj",
+        "projectName": "StreamBot",
+        "projectPath": "/media/justin/sp/StreamBot/StreamBot.csproj",
+        "packagesPath": "/home/justin/.nuget/packages/",
+        "outputPath": "/media/justin/sp/StreamBot/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/justin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

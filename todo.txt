@@ -1,0 +1,14 @@
+# Discord bot exercise
+# Obj - build a bot that streams audio to discord channel
+# Task 1: use discord.net library to interact with discord API
+
+github.com/discord-net/Discord.Net
+
+for audio streaming, use Pulse and ffmpeg
+
+# Notes for running
+# setup the bot token with 
+. set_env.sh
+
+# start the bot with
+dotnet run
